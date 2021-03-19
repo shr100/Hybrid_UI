@@ -5,7 +5,7 @@ body {
 	color: #000000 !important;
 
 	/* Font Edits */
-	font-size: 1.8em !important;
+	font-size: 1.5em !important;
 	line-height: 2em !important;
 	font-weight: bold !important;
 
@@ -18,19 +18,26 @@ chosen below meet all color contrast requirements listed by WCAG on a white back
 
 a:link {
 	color: #091691 !important;
-	font-size: 1.8em !important;
+	font-size: 1.5em !important;
 }
 a:visited {
 	color: #5c1873 !important;
-	font-size: 1.8em !important;
+	font-size: 1.5em !important;
 }
 a:hover {
 	color: #0c1db3 !important;
-	font-size: 1.8em !important;
+	font-size: 1.5em !important;
 }
 a:active {
 	color: #070f5e !important;
-	font-size: 1.8em !important;
+	font-size: 1.5em !important;
+}
+
+/* Paragraphs */
+p {
+	font-size: 1.5em !important;
+	line-height: 2em !important;
+	font-weight: bold !important;
 }
 
 #masthead,
