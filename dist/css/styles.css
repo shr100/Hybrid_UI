@@ -35,9 +35,14 @@ a:active {
 
 /* Paragraphs */
 p {
+  background-color: white !important;
   font-size: 1.5em !important;
   line-height: 2em !important;
   font-weight: bold !important;
+  color: #000000 !important;
+}
+div {
+  background-color: white !important;
 }
 
 #masthead,
