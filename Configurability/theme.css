@@ -1,0 +1,34 @@
+body {
+	/*background-color: #FFFFFF;*/
+	background-color: white !important;
+	font-family: sans-serif !important;
+	color: #000000 !important;
+
+	/* Font Edits 
+	font-size: 1.5em !important;
+	line-height: 2em !important;
+	font-weight: bold !important;*/
+
+  /*background: url('https://media.giphy.com/media/3o7WTDJQVuYwhhuLhC/giphy.gif') !important;*/
+}
+
+a:link {
+	color: #091691 !important;
+	
+}
+a:visited {
+	color: #5c1873 !important;
+	
+}
+a:hover {
+	color: #0c1db3 !important;
+	
+}
+a:active {
+	color: #070f5e !important;
+	
+}
+
+/* Adjust color of links (change from dark theme to light theme makes it
+difficult to read some links because of lack of color contrast) The values
+chosen below meet all color contrast requirements listed by WCAG on a white background */

@@ -1,0 +1,104 @@
+<head><script type = "text/javascript" src="jquery-3.6.0.min.js"></script></head>
+
+
+
+<style>
+  /*Configuration buttons*/
+  .wrap {
+    height: 220px;
+    width: 220px;
+    border-radius: 25%;
+    position: relative;
+    overflow: hidden;
+    
+  }
+  .quart {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    background: tomato;
+    transition: all 0.4s;
+  }
+
+  .quart:first-child {
+    top: 0;
+    left: 0;
+    text-align: center;
+    font-size: 28px;
+    background-color: #ccb3ff;
+  }
+  .quart:nth-child(2) {
+    top: 0;
+    left: 50%;
+    text-align: center;
+    font-size: 28px;
+    background-color:#d5ff80;
+  }
+  .quart:nth-child(3) {
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    top: 50%;
+    left: 0;
+    font-size: 28px;
+    background-color:#d5ff80;
+    
+  }
+  .quart:nth-child(4) {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    top: 50%;
+    left: 50%; 
+    font-size: 28px;
+    background-color: #ccb3ff;
+  }
+  .center {
+    height: 70%;
+    width: 70%;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    background: #b3e6ff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 150px;
+    font-size: 30px;
+  }
+  .quart:hover {
+    background: dimgray;
+  }
+
+  .button {
+  
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+  .b1{
+    background-color:#ccb3ff;
+  }
+
+  .b2{
+    background-color:  #d5ff80;
+  }
+</style>
+ 
+
+
+<div class="wrap">
+  <div class="quart"><button id = "theme" class = "button b1">Theme</button></div>
+  <div class="quart"><button id = "bold" class = "button b2">Bold</button></div>
+  <div class="quart"><button id = "voice" class = "button b2">Voice</button></div>
+  <div class="quart"><button id = "disable" class = "button b1">Disable</button></div>
+  <div class="center">Menu</div>
+</div>
+
+<script src = "content.js"></script>
