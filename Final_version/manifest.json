@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+
+  "name": "Hybrid_UI",
+  "version": "0.1.0",
+  "description": "Lateral blog post demo extension",
+
+  "content_scripts": [{
+    "js": /*"jquery-3.6.0.min.js","popup.js",*/ ["content.js", "jquery-3.6.0.min.js"],
+    "css": ["theme.css","styles.css"],
+    "matches": ["<all_urls>"]
+  }],
+
+  "browser_action":{
+    "default_popup":"popup.html",
+    "default_title":"Menu"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ]
+
+}
+
+
+
+/*https://www.twitch.tv/
+/* <all_urls>
